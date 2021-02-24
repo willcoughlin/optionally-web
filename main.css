@@ -26,7 +26,7 @@ a:not(.btn):hover, .btn-link-paper:hover {
 }
 
 .btn-paper {
-  background-color: #a9a4b0;
+  background-color: #6200ee;
   border-color: #6200ee;
 }
 
@@ -34,6 +34,14 @@ a:not(.btn):hover, .btn-link-paper:hover {
   background-color: #4900D5;
 }
 
-.btn-paper:disabled {
+.btn-paper:disabled, .btn-paper.disabled {
   background-color: #7C1AFF;
+}
+
+.text-paper {
+  color: #6200ee;
+}
+
+.text-arimo {
+  font-family: 'Arimo', sans-serif;
 }
