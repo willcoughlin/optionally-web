@@ -45,3 +45,13 @@ a:not(.btn):hover, .btn-link-paper:hover {
 .text-arimo {
   font-family: 'Arimo', sans-serif;
 }
+
+.btn-android {
+  background-color: #a4c639;
+  border-color: #a4c639;
+  color: white;
+}
+.btn-android:hover {
+  background-color: #8bad20;
+  color: white;
+}

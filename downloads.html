@@ -28,10 +28,10 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="downloads.html">Download</a>
+              <a class="nav-link active" href="downloads.html">Download</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="https://github.com/willcoughlin/optionally-app">Github</a>
@@ -54,44 +54,21 @@
     </nav>
     <!-- Page container -->
     <div class="container my-4">
-      <!-- Jumbotron -->
-      <div class="jumbotron">
-        <div class="d-flex flex-column flex-lg-row justify-content-evenly align-items-center">
-          <div class="text-center">
-            <h1 class="display-1 text-arimo text-paper">OptionAlly</h1>
-            <p class="lead">The option trader's companion</p>
-            <hr>
-            <div class="d-flex flex-row justify-content-around align-items-start">
-              <a href="downloads.html" class="btn btn-primary btn-paper">
-                Download <i class="fas fa-download"></i>
-              </a>
-              <a href="https://github.com/willcoughlin/optionally-app" class="btn btn-dark">
-                View on GitHub <i class="fab fa-github"></i>
-              </a>
+      <article id="downloadLatest">
+        <h2 class="display-5">Download OptionAlly</h2>
+        <h3 class="text-muted">Current Version: 2021.0.0</h3>
+        <br>
+        <div class="list-group">
+          <div class="list-group-item">
+            <div class="d-flex flex-row justify-content-between align-items-center">
+              <span class="h4">Android</span>
+              <a href="https://s3.amazonaws.com/public.optionally.app/latest/optionally-app-latest.apk" class="btn btn-android">Download <i class="fab fa-android"></i></a>
+            </div>
+            <div>
+              Note: you will need to allow apps to be installed from unknown sources.
             </div>
           </div>
-          <img id="bigScreenshotDisplay" class="img-fluid" src="img/Stack.png" alt="Display of app's screens" style="max-height: 80vh;"/>
         </div>
-      </div>
-      <!-- Main content -->
-      <article id="about">
-        <h2 class="display-5">How OptionAlly helps you evaluate options trades</h2>
-        <section>
-          <h3>1. Select underlying asset</h3>
-          <p class="lead">Choose from any stock or ETF traded on a major US exchange.</p>
-        </section>
-        <section>
-          <h3>2. Choose a strategy</h3>
-          <p class="lead">OptionAlly has strategies that cater to your goals and skill level. For the bulls, the bears, and those in between.</p>
-        </section>
-        <section>
-          <h3>3. Configure trade</h3>
-          <p class="lead">Pick option contracts to configure the legs of the trade.</p>
-        </section>
-        <section>
-          <h3>4. Evaluate results</h3>
-          <p class="lead">Use the calculated risk/reward ratio and hypothetical profit or loss scenarios to judge the strategy and avoid outsized risk.</p>
-        </section>
       </article>
       <hr />
       <!-- Footer -->
