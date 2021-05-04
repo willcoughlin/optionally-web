@@ -55,3 +55,15 @@ a:not(.btn):hover, .btn-link-paper:hover {
   background-color: #8bad20;
   color: white;
 }
+
+body {
+  padding-bottom: 60px;
+}
+
+#warning-footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3rem;
+}
